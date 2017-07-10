@@ -1,0 +1,25 @@
+
+This project requires python 2.7
+I have used Google cloud to run the setup with as my local machine was unable to handle the computation
+Google cloud give me $300 free credits and I have  run the experiment in 
+
+Ubuntu 16.04 with 8 core CPU and 30 GB RAM
+
+
+Run this commands
+
+wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+bash Anaconda2-4.3.1-Linux-x86_64.sh
+conda install -c ccordoba12 python-pcl=0.2
+pip install geo2cart
+
+
+To run the code
+
+"python Detect_Pole.py"
+
+After running this we will get a file with the geo coordinates of poles
+
+To check the plotting with the resultant file
+
+"python plot.py"
